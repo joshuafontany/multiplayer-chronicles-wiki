@@ -1,0 +1,12 @@
+created: 20190611174214039
+creator: Joshua
+modified: 20211023182500418
+modifier: Saq
+stream-list: [[abs Operator (Examples)/20211023182445558]] [[abs Operator (Examples)/20211023182457873]] [[abs Operator (Examples)/20211023182454805]]
+stream-type: default
+tags: [[abs Operator]] [[Operator Examples]]
+title: abs Operator (Examples)
+type: text/vnd.tiddlywiki
+
+<<.operator-example 1 "[[-2000]abs[]]">>
+<<.operator-example 2 "=-1 =-2 =3 =4 =5 +[abs[]]">>

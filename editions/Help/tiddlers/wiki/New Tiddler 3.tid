@@ -1,0 +1,9 @@
+created: 20210105001453857
+creator: Joshua Fontany
+modified: 20210105001531268
+modifier: Joshua Fontany
+tags: 
+title: New Tiddler 3
+type: text/vnd.tiddlywiki
+
+<$button><$action-setfield $tiddler="A probably missing tiddler" type="text/plain"/>Crash test</$button>

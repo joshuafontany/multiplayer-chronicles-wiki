@@ -1,0 +1,565 @@
+{
+    "Basic": {
+        "Name": "Odanna Khadell",
+        "Player": "",
+        "Gender": "They-Them",
+        "Age": "637",
+        "Height": "",
+        "Weight": "",
+        "Hair": "None",
+        "Skin": "Volcanic",
+        "Eyes": "Obsidian",
+        "Passion": "Jaspree",
+        "Traits": "",
+        "Description": ""
+    },
+    "Race": "ED4Obsidiman",
+    "attributePoints": 25,
+    "Attributes": {
+        "Dex": {
+            "Buildpoints": 0,
+            "Increases": 0
+        },
+        "Str": {
+            "Buildpoints": "-2",
+            "Increases": 0
+        },
+        "Tou": {
+            "Buildpoints": 0,
+            "Increases": 0
+        },
+        "Per": {
+            "Buildpoints": "9",
+            "Increases": 1
+        },
+        "Wil": {
+            "Buildpoints": "9",
+            "Increases": 0
+        },
+        "Cha": {
+            "Buildpoints": "9",
+            "Increases": 0
+        }
+    },
+    "LegendPoints": 3800,
+    "MiscSpent": [],
+    "Disciplines": [
+        {
+            "ID": "ED4Nethermancer",
+            "Circle": "2",
+            "Order": "0",
+            "StartedAt": 15,
+            "OptionalTalentsChosen": [
+                {
+                    "Circle": "1",
+                    "ID": "ED4CommandNightflyer"
+                },
+                {
+                    "Circle": "2",
+                    "ID": "ED4Awareness"
+                }
+            ]
+        }
+    ],
+    "Paths": [],
+    "Talents": [
+        {
+            "Order": "0",
+            "ID": "ED4StandardMatrix",
+            "Rank": "2",
+            "Freerank": "0",
+            "Sources": [
+                {
+                    "Type": "DisciplineFree",
+                    "ID": "ED4Nethermancer"
+                }
+            ],
+            "Source": "Nethermancer 1",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "1",
+            "Type": "Free",
+            "FreeTalent": "0",
+            "CurrentCost": "Free",
+            "CurrentSource": "ED4Nethermancer",
+            "debug": "Stacking Free Matrix",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Cost": 0,
+                    "Source": "ED4Nethermancer"
+                },
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 0
+                }
+            ],
+            "UID": "a247a9ef-ce2a-4f2a-bc24-31113401da8f",
+            "Cost": 0,
+            "Step": "-"
+        },
+        {
+            "Order": "1",
+            "ID": "ED4StandardMatrix",
+            "Rank": "2",
+            "Freerank": "0",
+            "Sources": [
+                {
+                    "Type": "DisciplineFree",
+                    "ID": "ED4Nethermancer"
+                }
+            ],
+            "Source": "Nethermancer 1",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "1",
+            "Type": "Free",
+            "FreeTalent": "1",
+            "CurrentCost": "Free",
+            "CurrentSource": "ED4Nethermancer",
+            "debug": "Stacking Free Matrix",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Cost": 0,
+                    "Source": "ED4Nethermancer"
+                },
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 0
+                }
+            ],
+            "UID": "10aeaf1c-76a3-46ec-b095-e0f6be2d5c4e",
+            "Cost": 0,
+            "Step": "-"
+        },
+        {
+            "Order": "2",
+            "ID": "ED4AstralSight",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Nethermancer 1",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Nethermancer",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 200
+                }
+            ],
+            "UID": "f59a5f6b-eee2-40bd-88a5-c4d51a74e5fa",
+            "Cost": 200,
+            "Step": 9
+        },
+        {
+            "Order": "3",
+            "ID": "ED4Frighten",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Nethermancer 1",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Nethermancer",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 200
+                }
+            ],
+            "UID": "c43ca064-f361-48d7-9fee-221ac252db1d",
+            "Cost": 200,
+            "Step": 9
+        },
+        {
+            "Order": "4",
+            "ID": "ED4Patterncraft",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Nethermancer 1",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Nethermancer",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 200
+                }
+            ],
+            "UID": "f408e80c-b318-4a59-b3da-9cf68dfe15cb",
+            "Cost": 200,
+            "Step": 9
+        },
+        {
+            "Order": "5",
+            "ID": "ED4Spellcasting",
+            "Rank": 2,
+            "Freerank": 2,
+            "Source": "Nethermancer 1",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Nethermancer",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 200
+                }
+            ],
+            "UID": "bf394fd9-be89-43e5-9e50-7383763dae6e",
+            "Cost": 0,
+            "Step": 9
+        },
+        {
+            "Order": "6",
+            "ID": "ED4ThreadWeavingNethermancy",
+            "Rank": 2,
+            "Freerank": 2,
+            "Source": "Nethermancer 1",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Nethermancer",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 200
+                }
+            ],
+            "UID": "edba2113-4fa7-4da2-87dd-9e5afebee46b",
+            "Cost": 0,
+            "Step": 9
+        },
+        {
+            "Order": "7",
+            "ID": "ED4CommandNightflyer",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Nethermancer 1",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "1",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Nethermancer",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 200
+                }
+            ],
+            "UID": "099c259a-464d-4683-bb03-f98da875bb17",
+            "Cost": 200,
+            "Step": 9
+        },
+        {
+            "Order": "8",
+            "ID": "ED4SteelThought",
+            "Rank": 2,
+            "Freerank": 0,
+            "Source": "Nethermancer 2",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "2",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Nethermancer",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 200
+                }
+            ],
+            "UID": "7d78564e-2e89-42f4-a9d8-1995fd2d6130",
+            "Cost": 300,
+            "Step": 9
+        },
+        {
+            "Order": "9",
+            "ID": "ED4Awareness",
+            "Rank": 2,
+            "Freerank": 0,
+            "Source": "Nethermancer 2",
+            "DisciplineId": "ED4Nethermancer",
+            "Circle": "2",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Nethermancer",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Nethermancer",
+                    "Cost": 200
+                }
+            ],
+            "UID": "a552113f-c096-4aef-92df-3c0b84581451",
+            "Cost": 300,
+            "Step": 9
+        }
+    ],
+    "Knacks": [],
+    "Skills": [
+        {
+            "ID": "ED4ReadWriteLanguage",
+            "Rank": "1",
+            "Freerank": "1",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 8
+        },
+        {
+            "ID": "ED4SpeakLanguage",
+            "Rank": "2",
+            "Freerank": "2",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 9
+        },
+        {
+            "ID": "ED4Artisan",
+            "Category": "Artisan",
+            "Name": "Rune Carving",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Alchemy and Potions",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 9,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Lore: Horrors",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 9,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4AvoidBlow",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 5,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4DangerSense",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 5,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Research",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 9,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Craftsman",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 8,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Conversation",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "Empty",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "0",
+            "Freerank": "0"
+        }
+    ],
+    "Spells": [
+        {
+            "ID": "ED4NBoneCircle"
+        },
+        {
+            "ID": "ED4NSummonFogGhost"
+        },
+        {
+            "ID": "ED4NShadowsWhisper"
+        },
+        {
+            "ID": "ED4NEtherealDarkness"
+        },
+        {
+            "ID": "ED4NChillingCircle"
+        }
+    ],
+    "Equipment": [
+        {
+            "ID": "AdventuringKit",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "ArtisanTools",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "Dagger",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Thrown",
+            "DamageStep": 9
+        },
+        {
+            "ID": "TravelersGarb",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Clothing"
+        },
+        {
+            "ID": "RationsTrail1week",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Provender"
+        },
+        {
+            "ID": "Silver",
+            "Count": "500",
+            "InUse": "Yes",
+            "Type": "Valuable"
+        }
+    ],
+    "Options": {
+        "Edition": "ED4",
+        "Attributepoints": "25",
+        "MaxAttributeIncrease": "3",
+        "Talentpoints": "8",
+        "Spellpoints": "PERstep",
+        "KnowledgeSkillpoints": "2",
+        "ArtisanSkillpoints": "1",
+        "SpeakSkillpoints": "2",
+        "ReadSkillpoints": "1",
+        "FreeSkillpoints": "8",
+        "BuyMoreOptionalMatrices": "false",
+        "FreeMatricesStack": "false",
+        "BuyMatricesPerDiscipline": "true",
+        "CasterCircle5Bonus": "false",
+        "SpellsCostLP": "4ed",
+        "FirstWoundFree": "false",
+        "Books": "ElvenNations Travar MysticPaths Iopos",
+        "StepDice": "ED4",
+        "SkillFreeRanksLimit": "Novice",
+        "RangedAggressive": "false",
+        "Durability": "Best",
+        "AllTalentsToAdvance": "No",
+        "AttributeIncrease": "Costs",
+        "DiscBonusesStack": "Highest"
+    },
+    "Damage": 0,
+    "Wounds": 0,
+    "PortraitURL": "./img/Portraits/Empty.png",
+    "StepsVersion": 922
+}

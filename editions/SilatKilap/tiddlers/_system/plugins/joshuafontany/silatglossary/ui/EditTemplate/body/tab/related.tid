@@ -1,0 +1,11 @@
+caption: Related
+created: 20200526062522343
+creator: Joshua Fontany
+modified: 20200608235318545
+modifier: Joshua Fontany
+tags: $:/tags/Glossary/EditTab
+title: $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/related
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/joshuafontany/silatglossary/Macro/Story/Edit
+<<glossary-related>>

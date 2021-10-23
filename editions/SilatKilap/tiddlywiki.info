@@ -1,0 +1,64 @@
+{
+    "description": "SilatKilap edition",
+    "plugins": [
+        "tiddlywiki/internals",
+        "tiddlywiki/consent-banner",
+        "tiddlywiki/googleanalytics",
+        "wikilabs/uni-link",
+        "flibbles/relink",
+        "flibbles/relink-titles",
+        "sq/streams",
+        "joshuafontany/oembed",
+        "joshuafontany/pagetools"
+    ],
+    "themes": [
+        "tiddlywiki/vanilla",
+        "tiddlywiki/snowwhite"
+    ],
+    "build": {
+        "index": [
+            "--rendertiddler",
+            "$:/core/save/all",
+            "index.html",
+            "text/plain"
+        ],
+        "externalimages": [
+            "--savetiddlers",
+            "[is[image]]",
+            "images",
+            "--setfield",
+            "[is[image]]",
+            "_canonical_uri",
+            "$:/core/templates/canonical-uri-external-image",
+            "text/plain",
+            "--setfield",
+            "[is[image]]",
+            "text",
+            "",
+            "text/plain",
+            "--rendertiddler",
+            "$:/core/save/all",
+            "externalimages.html",
+            "text/plain"
+        ],
+        "static": [
+            "--rendertiddler",
+            "$:/core/templates/static.template.html",
+            "static.html",
+            "text/plain",
+            "--rendertiddler",
+            "$:/core/templates/alltiddlers.template.html",
+            "alltiddlers.html",
+            "text/plain",
+            "--rendertiddlers",
+            "[!is[system]]",
+            "$:/core/templates/static.tiddler.html",
+            "static",
+            "text/plain",
+            "--rendertiddler",
+            "$:/core/templates/static.template.css",
+            "static/static.css",
+            "text/plain"
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+description: Forces a meta file and custom file extention when running on node.js. Same format as $:/config/FileSystemPaths, the first matching line's output becomes the new file extension.
+title: $:/config/FileSystemExtensions
+type: text/vnd.tiddlywiki
+
+[type[text/vnd.tiddlywiki]tag[.txt]then[.txt]]
+[tag[.json]then[.json]]
+[tag[.tid]then[.tid]]

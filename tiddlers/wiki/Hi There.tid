@@ -1,0 +1,29 @@
+created: 20210719000009101
+creator: Joshua
+modified: 20210719000009137
+modifier: Joshua
+tags: Contents
+title: Hi There
+type: text/vnd.tiddlywiki
+
+<div class="hello-avatar">
+<$set name="imgWidth" value="150">
+{{$:/CustomConfig/UserAvatar}}
+</$set>
+</div>
+
+My name is [[Joshua Fontany]], and you have found my primary GitHub tiddlywiki. Welcome!
+
+[ext[TiddlyWiki|http://tiddlywiki.com]] is an open-source javascript+HTML application that can be served on a ''webserver'', served through ''node.js'' over local networks, or saved as a ''single .html file''.
+
+This ~TiddlyWiki is the central hub for my own wikis, my software experiments, and all of the other strange things that I am into.
+
+While you explore the [[Table of Contents]] tiddler, clicking the links on the left will open that 'tiddler' in the tab on the right. Other links will open new 'tiddlers' below the [[Table of Contents]] in the "Story River", or may even open externally in new tabs.
+
+Hopefully you'll find something of interest!
+
+Mahalo (//thanks!//) for stopping by. Check back often!!
+
+OR
+
+[[Find Me and Follow Me!!!|Find Me]]

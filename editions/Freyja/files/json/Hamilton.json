@@ -1,0 +1,615 @@
+{
+    "Basic": {
+        "Name": "Hamilton ",
+        "Player": "Christian",
+        "Gender": "Male",
+        "Age": "24",
+        "Height": "",
+        "Weight": "",
+        "Hair": "Brown",
+        "Skin": "Tan",
+        "Eyes": "Green",
+        "Passion": "Studying environments ",
+        "Traits": "",
+        "Description": ""
+    },
+    "Race": "ED4Dwarf",
+    "attributePoints": 25,
+    "Attributes": {
+        "Dex": {
+            "Buildpoints": 0,
+            "Increases": 0
+        },
+        "Str": {
+            "Buildpoints": "5",
+            "Increases": 0
+        },
+        "Tou": {
+            "Buildpoints": "7",
+            "Increases": 0
+        },
+        "Per": {
+            "Buildpoints": "3",
+            "Increases": 1
+        },
+        "Wil": {
+            "Buildpoints": "7",
+            "Increases": 0
+        },
+        "Cha": {
+            "Buildpoints": "3",
+            "Increases": 0
+        }
+    },
+    "LegendPoints": 3800,
+    "MiscSpent": [],
+    "Disciplines": [
+        {
+            "ID": "ED4Elementalist",
+            "Circle": "2",
+            "Order": "0",
+            "StartedAt": 15,
+            "OptionalTalentsChosen": [
+                {
+                    "Circle": "1",
+                    "ID": "ED4Tracking"
+                },
+                {
+                    "Circle": "2",
+                    "ID": "ED4AstralSight"
+                }
+            ]
+        }
+    ],
+    "Paths": [],
+    "Talents": [
+        {
+            "Order": "0",
+            "ID": "ED4StandardMatrix",
+            "Rank": "2",
+            "Freerank": "0",
+            "Sources": [
+                {
+                    "Type": "DisciplineFree",
+                    "ID": "ED4Elementalist"
+                }
+            ],
+            "Source": "Elementalist 1",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "1",
+            "Type": "Free",
+            "FreeTalent": "0",
+            "CurrentCost": "Free",
+            "CurrentSource": "ED4Elementalist",
+            "debug": "Stacking Free Matrix",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Cost": 0,
+                    "Source": "ED4Elementalist"
+                },
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 0
+                }
+            ],
+            "UID": "1da4c7eb-7b14-40f9-b28f-b667d9ac6d5c",
+            "Spell": "ED4EWaterproof",
+            "Cost": 0,
+            "Step": "-"
+        },
+        {
+            "Order": "1",
+            "ID": "ED4StandardMatrix",
+            "Rank": "2",
+            "Freerank": "0",
+            "Sources": [
+                {
+                    "Type": "DisciplineFree",
+                    "ID": "ED4Elementalist"
+                }
+            ],
+            "Source": "Elementalist 1",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "1",
+            "Type": "Free",
+            "FreeTalent": "1",
+            "CurrentCost": "Free",
+            "CurrentSource": "ED4Elementalist",
+            "debug": "Stacking Free Matrix",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Cost": 0,
+                    "Source": "ED4Elementalist"
+                },
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 0
+                }
+            ],
+            "UID": "9f85ca5e-7202-4c52-ad2f-9d0a06303571",
+            "Spell": "ED4EShieldWillow",
+            "Cost": 0,
+            "Step": "-"
+        },
+        {
+            "Order": "2",
+            "ID": "ED4Awareness",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Elementalist 1",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Elementalist",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Elementalist",
+                    "Cost": 200
+                }
+            ],
+            "UID": "4941311c-d5b0-4047-80ae-f0dbca910ed7",
+            "Cost": 200,
+            "Step": 8
+        },
+        {
+            "Order": "3",
+            "ID": "ED4Patterncraft",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Elementalist 1",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Elementalist",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Elementalist",
+                    "Cost": 200
+                }
+            ],
+            "UID": "26f64f0e-0dc5-4e52-b411-065cfa179943",
+            "Cost": 200,
+            "Step": 8
+        },
+        {
+            "Order": "4",
+            "ID": "ED4Spellcasting",
+            "Rank": 3,
+            "Freerank": 2,
+            "Source": "Elementalist 1",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Elementalist",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Elementalist",
+                    "Cost": 200
+                },
+                {
+                    "Rank": 3,
+                    "Source": "ED4Elementalist",
+                    "Cost": 300
+                }
+            ],
+            "UID": "8217d082-f907-4a80-a76b-c25507fad4d0",
+            "Cost": 300,
+            "Step": 9
+        },
+        {
+            "Order": "5",
+            "ID": "ED4ThreadWeavingElementalism",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Elementalist 1",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Elementalist",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Elementalist",
+                    "Cost": 200
+                }
+            ],
+            "UID": "1fa064ca-ae2e-41fc-b9db-499fa7b0987e",
+            "Cost": 200,
+            "Step": 8
+        },
+        {
+            "Order": "6",
+            "ID": "ED4WoodSkin",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Elementalist 1",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Elementalist",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Elementalist",
+                    "Cost": 200
+                }
+            ],
+            "UID": "a1150c23-6af5-4fe3-8551-78bbf54a722d",
+            "Cost": 200,
+            "Step": 9
+        },
+        {
+            "Order": "7",
+            "ID": "ED4Tracking",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Elementalist 1",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "1",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Elementalist",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Elementalist",
+                    "Cost": 200
+                }
+            ],
+            "UID": "40c0f63a-111e-42f2-b375-a21e39b4ddc0",
+            "Cost": 200,
+            "Step": 8
+        },
+        {
+            "Order": "8",
+            "ID": "ED4FireHeal",
+            "Rank": "0",
+            "Freerank": "0",
+            "Source": "Elementalist 2",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "2",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Elementalist",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [],
+            "UID": "106044aa-94c7-4fe1-9cf1-b0b071d391c4",
+            "Cost": 0,
+            "Step": 7
+        },
+        {
+            "Order": "9",
+            "ID": "ED4AstralSight",
+            "Rank": 2,
+            "Freerank": 0,
+            "Source": "Elementalist 2",
+            "DisciplineId": "ED4Elementalist",
+            "Circle": "2",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Elementalist",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Elementalist",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Elementalist",
+                    "Cost": 200
+                }
+            ],
+            "UID": "e47c230a-3dea-49cc-89a5-fd7b306dd56e",
+            "Cost": 300,
+            "Step": 8
+        }
+    ],
+    "Knacks": [],
+    "Skills": [
+        {
+            "ID": "ED4ReadWriteLanguage",
+            "Rank": "1",
+            "Freerank": "1",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 7
+        },
+        {
+            "ID": "ED4SpeakLanguage",
+            "Rank": "2",
+            "Freerank": "2",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 8
+        },
+        {
+            "ID": "ED4MimicVoice",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Artisan",
+            "Category": "Artisan",
+            "Name": "Cooking",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Discipline Lore",
+            "Rank": "3",
+            "Freerank": "2",
+            "Step": 9,
+            "Cost": 500
+        },
+        {
+            "ID": "ED4Diplomacy",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 8,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Lore: Creatures",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 8,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4AnimalTraining",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Nature",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Taunt",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "2",
+            "Freerank": "1",
+            "Step": 8,
+            "Cost": 300
+        }
+    ],
+    "Spells": [
+        {
+            "ID": "ED4EShelter"
+        },
+        {
+            "ID": "ED4EShieldWillow"
+        },
+        {
+            "ID": "ED4EEarthDarts"
+        },
+        {
+            "ID": "ED4EIcySurface"
+        },
+        {
+            "ID": "ED4EWaterproof"
+        },
+        {
+            "ID": "ED4EAirArmor"
+        },
+        {
+            "ID": "ED4ECrunchClimb"
+        },
+        {
+            "ID": "ED4EMantleoftheWoodlandHunter"
+        },
+        {
+            "ID": "ED4EFlameweapon"
+        }
+    ],
+    "Equipment": [
+        {
+            "ID": "AdventuringKit",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "ArtisanTools",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "Dagger",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Thrown",
+            "DamageStep": 8
+        },
+        {
+            "ID": "TravelersGarb",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Clothing"
+        },
+        {
+            "ID": "RationsTrail1week",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Provender"
+        },
+        {
+            "ID": "Silver",
+            "Count": "390",
+            "InUse": "Yes",
+            "Type": "Valuable"
+        },
+        {
+            "ID": "Quarterstaff",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 10
+        },
+        {
+            "ID": "BarkArmor",
+            "Type": "Armor",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "HomingCompass",
+            "Type": "Magic",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "Buckler",
+            "Type": "Shield",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "BoosterPotion",
+            "Type": "Healing Aid",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "HealingPotion",
+            "Type": "Healing Aid",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "KeliasAntidote",
+            "Type": "Healing Aid",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "KelixsPoultice",
+            "Type": "Healing Aid",
+            "Count": "1",
+            "InUse": "Yes"
+        }
+    ],
+    "Options": {
+        "Edition": "ED4",
+        "Attributepoints": "25",
+        "MaxAttributeIncrease": "3",
+        "Talentpoints": "8",
+        "Spellpoints": "PERstep",
+        "KnowledgeSkillpoints": "2",
+        "ArtisanSkillpoints": "1",
+        "SpeakSkillpoints": "2",
+        "ReadSkillpoints": "1",
+        "FreeSkillpoints": "8",
+        "BuyMoreOptionalMatrices": "false",
+        "FreeMatricesStack": "false",
+        "BuyMatricesPerDiscipline": "true",
+        "CasterCircle5Bonus": "false",
+        "SpellsCostLP": "4ed",
+        "FirstWoundFree": "false",
+        "Books": "ElvenNations Travar MysticPaths Iopos",
+        "StepDice": "ED4",
+        "SkillFreeRanksLimit": "Novice",
+        "RangedAggressive": "false",
+        "Durability": "Best",
+        "AllTalentsToAdvance": "No",
+        "AttributeIncrease": "Costs",
+        "DiscBonusesStack": "Highest"
+    },
+    "Damage": 0,
+    "Wounds": 0,
+    "PortraitURL": "./img/Portraits/Sade20.jpg",
+    "StepsVersion": 922
+}

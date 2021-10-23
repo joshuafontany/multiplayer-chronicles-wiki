@@ -1,0 +1,13 @@
+created: 20200803193816415
+creator: Joshua Fontany
+modified: 20200803193816415
+modifier: Joshua Fontany
+title: Table of Contents
+
+<$macrocall
+	$name="toc-tabbed-external-nav"
+	tag="Contents"
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic-header to view sub-topics.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>

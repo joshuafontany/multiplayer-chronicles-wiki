@@ -1,0 +1,13 @@
+created: 20200526011953801
+modified: 20200526023752615
+tags: 
+title: $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/fields/hiddenfields
+type: text/vnd.tiddlywiki
+
+<div class="hiddenfields">
+<$set name="fieldState" value={{{ [<currentTiddler>split[/]join[_]lowercase[]addprefix[$:/state/hiddenfields/]] }}} >
+<$reveal type="match" state=<<fieldState>> text="show">
+<<tiddler-fields-edit>>
+</$reveal>
+</$set>
+</div>

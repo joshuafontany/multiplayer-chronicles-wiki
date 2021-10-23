@@ -1,0 +1,10 @@
+author: joshuafontany
+core-version: >=5.1.23
+dependents: 
+description: Multi-user/multi-wiki syncing using Yjs & Websockets
+list: readme license.md Configuration.md Changelog.md
+plugin-type: plugin
+source: https://github.com/joshuafontany/tw5-yjs
+title: $:/plugins/commons/yjswebsockets
+type: application/json
+version: 0.0.1

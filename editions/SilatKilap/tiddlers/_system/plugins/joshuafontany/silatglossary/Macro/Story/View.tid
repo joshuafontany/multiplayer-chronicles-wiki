@@ -1,0 +1,42 @@
+_language_list: indonesian malay filipino
+_related_terms: testing
+_see_also: QA [[quality assurance]] [[Google]]
+aliases: 
+created: 20200504001942179
+creator: Joshua Fontany
+filipino: test
+indonesian: test
+malay: test
+modified: 20200609214534749
+modifier: Joshua Fontany
+tags: $:/tags/Raw
+title: $:/plugins/joshuafontany/silatglossary/Macro/Story/View
+type: text/vnd.tiddlywiki
+
+\define language-header(term)
+<$text text=<<Language>> /> (<a class="tc-tiddlylink-external"  href="https://translate.google.com/#view=home&op=translate&sl=$(code)$&tl=en&text=$term$" target="_blank">Translate</a>)
+\end
+\define glossary-item()
+''Aliases'' <code><<showAliases delim:" |">></code>
+<$list filter={{!!_language_list}} variable="lang">
+<$list variable="Language" filter="[<lang>lookup[$:/plugins/joshuafontany/silatglossary/language/]]" >
+<$set name="code" tiddler="$:/plugins/joshuafontany/silatglossary/LanguageCodes" index=<<Language>> empty="auto" >
+
+;<$macrocall $name="language-header" term={{{ [{!!title}lowercase[]] }}} />
+:<$transclude field=<<lang>> />
+</$set>
+</$list>
+</$list>
+
+<$list filter="[<currentTiddler>has[_see_also]]">
+
+;See Also
+:<$macrocall $name=list-links filter={{!!_see_also}} />
+</$list>
+
+<$list filter="[<currentTiddler>has[_related_terms]]">
+
+;Related Terms
+:<$macrocall $name=list-links filter={{!!_related_terms}} />
+</$list>
+\end

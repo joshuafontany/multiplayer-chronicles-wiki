@@ -1,0 +1,13 @@
+created: 20211004005758173
+modified: 20211004005758173
+tags: 
+title: $:/CustomConfig
+
+Notes on some of the basic customization done to this ~TiddlyWiki:
+
+<$list filter="[tag[$:/CustomConfig]!has[draft.of]]">
+
+;<<currentTiddler>>
+: {{!!description}}
+</$list>
+

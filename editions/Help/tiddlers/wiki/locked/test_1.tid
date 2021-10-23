@@ -1,0 +1,13 @@
+created: 20210105030819311
+creator: Joshua Fontany
+modified: 20210105033735661
+modifier: Joshua Fontany
+tags: .tid
+title: locked/test
+type: text/vnd.tiddlywiki
+
+\define buttonActions()
+<$action-listops $tiddler=<<currentTiddler>> $tags="+[toggle[.json],[.txt],[.tid]]" />
+\end
+
+<$button actions=<<buttonActions>> >CLICK ME</$button> 

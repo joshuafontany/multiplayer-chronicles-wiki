@@ -1,0 +1,41 @@
+caption: <i class="fas fa-exclamation"/> What's New?
+created: 20200803193436071
+creator: Joshua Fontany
+modified: 20200810025758283
+modifier: Joshua Fontany
+tags: Contents
+title: What's New
+
+Most Recent:
+
+
+<$list variable="lastDate" filter="[tag[Journal]!nsort[]limit[1]]">
+
+<$list variable="entry" filter="[tag<lastDate>sort[]]">
+
+!! <<entry>>
+<$transclude tiddler=<<entry>> mode="block"/>
+</$list>
+</$list>
+
+---
+
+A rolling list of updates. The wiki-code that produces this is:
+
+`<$macrocall
+	$name="toc-tabbed-external-nav"
+	tag="Journal"
+	sort="!sort[title]"
+	selectedTiddler="$:/temp/toc/selectedJournal"
+	unselectedText="<p>Click the arrow to expand a date-header to view journal entries.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>`
+
+<$macrocall
+	$name="toc-tabbed-external-nav"
+	tag="Journal"
+	sort="!sort[title]"
+	selectedTiddler="$:/temp/toc/selectedJournal"
+	unselectedText="<p>Click the arrow to expand a date-header to view journal entries.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>

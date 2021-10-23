@@ -1,0 +1,9 @@
+created: 20200506233728555
+modified: 20200506235055636
+tags: $:/tags/Stylesheet
+title: $:/plugins/joshuafontany/silatglossary/Styles
+type: text/vnd.tiddlywiki
+
+.uni-link {
+  color: <<colour "primary">>;
+}

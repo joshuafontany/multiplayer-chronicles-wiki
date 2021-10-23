@@ -1,0 +1,25 @@
+created: 20211008002451000
+modified: 20211008003133587
+tags: 
+title: $:/gallery
+
+<style>
+.my-gallery img{
+width: 10em;
+height: 10em;
+margin: 1em;
+}
+</style>
+<<prefix>>
+<div class="my-gallery">
+<$set name="prefix" filter="[<currentTiddler>has[draft.title]get[draft.title]else{!!title}] +[addsuffix[/Images]]">
+<<prefix>>
+<$list filter="[all[tiddlers]prefix<currentTiddler>prefix<prefix>]">
+<span title=<<currentTiddler>>>
+<$link to=<<currentTiddler>> >
+<$transclude/>
+</$link>
+</span>
+</$list>
+</$set>
+</div>

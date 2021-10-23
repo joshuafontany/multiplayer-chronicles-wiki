@@ -1,0 +1,12 @@
+created: 20200526002557673
+creator: Joshua Fontany
+modified: 20200608235328232
+modifier: Joshua Fontany
+title: $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/glossary
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/joshuafontany/silatglossary/Macro/Story/Edit
+<$set name="editState" value=<<qualify "$:/state/edit/tab">> >
+<<glossary-aliases>>
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/Glossary/EditTab]!has[draft.of]]" default="$:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/text" state="$:/state/edit/tab" retain="yes"/>
+</$set>

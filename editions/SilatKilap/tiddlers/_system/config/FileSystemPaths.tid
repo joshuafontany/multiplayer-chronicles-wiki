@@ -1,0 +1,12 @@
+created: 20200430072747466
+creator: Joshua Fontany
+description: https://tiddlywiki.com/#Customising%20Tiddler%20File%20Naming <br/> Forces path separators to be recognized when running on node.js.
+modified: 20200517033356875
+modifier: Joshua Fontany
+title: $:/config/FileSystemPaths
+type: text/vnd.tiddlywiki
+
+[is[system]removeprefix[$:/]addprefix[_system/]]
+[has[draft.of]addprefix[drafts/]]
+[!is[system]!has[draft.of]tag[Glossary]addprefix[glossary/]]
+[!is[system]!has[draft.of]addprefix[wiki/]]

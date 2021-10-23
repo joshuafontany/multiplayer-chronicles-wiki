@@ -1,0 +1,20 @@
+caption: Sources
+created: 20200611025729903
+creator: Joshua Fontany
+modified: 20200616033035401
+modifier: Joshua Fontany
+sort-priority: 0
+tags: Glossary/Section
+title: Glossary/Sources
+type: text/vnd.tiddlywiki
+
+[[Adat]] and [[hormat|?]] are offered to all the scholars of martial arts who cultivated this information.
+
+My glossary has been collected from many sources. It began as an attempt to resolve separate glossaries from different "branches" of the [[DeThouars Family]] martial-arts lineages. The project quickly outgrew this scope as I began to incorporate references from the other martial arts and cultures I have studied. 
+
+Because of the rarity of primary sources, spelling-shifts over time, and common cross-language "slang" usages in the martial arts community, I have listed "aliases" for each term. Due diligence has been done to resolve conflicting definitions, mistakes, or incorrect references, and all terminology has been updated to "modern" spellings/transliterations. This is a "living document" and always a work-in-progress, with any remaining mistakes mine (please [[contact me|Joshua Fontany]] if you would like to contribute).
+
+This wiki is dedicated to the future generations, who will literally embody these principles and carry them forward.
+
+!!Sources:
+<$macrocall $name="list-links" filter="[tag[Glossary/Sources]sort[modified]]"/>

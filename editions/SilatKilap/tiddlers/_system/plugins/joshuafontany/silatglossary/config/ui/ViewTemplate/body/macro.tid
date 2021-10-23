@@ -1,0 +1,10 @@
+created: 20200530032007806
+creator: Joshua Fontany
+modified: 20200609214533799
+modifier: Joshua Fontany
+tags: $:/config/ui/ViewTemplate/body
+title: $:/plugins/joshuafontany/silatglossary/config/ui/ViewTemplate/body/macro
+type: text/vnd.tiddlywiki
+
+[tag[$:/tags/Macro]then[$:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/body/macro]]
+[tag[$:/tags/Raw]then[$:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/body/macro]]

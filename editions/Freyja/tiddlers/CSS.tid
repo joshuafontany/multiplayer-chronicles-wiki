@@ -1,0 +1,9 @@
+created: 20211002020914098
+modified: 20211002021702421
+tags: $:/tags/Stylesheet
+title: CSS
+type: text/vnd.tiddlywiki
+
+.location-title {
+margin-block-end: 0em;
+}

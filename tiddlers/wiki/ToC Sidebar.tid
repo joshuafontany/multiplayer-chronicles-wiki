@@ -1,0 +1,10 @@
+caption: Contents
+created: 20211004005758306
+list-before: $:/core/ui/SideBar/Recent
+modified: 20211004005758306
+tags: $:/tags/SideBar
+title: ToC Sidebar
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Contents">>
+</div>

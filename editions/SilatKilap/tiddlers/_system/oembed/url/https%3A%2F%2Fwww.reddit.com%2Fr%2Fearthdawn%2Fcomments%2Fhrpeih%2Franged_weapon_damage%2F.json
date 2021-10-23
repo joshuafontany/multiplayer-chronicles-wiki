@@ -1,0 +1,9 @@
+{
+  "provider_url": "https://www.reddit.com/",
+  "version": "1.0",
+  "title": "Ranged weapon damage",
+  "provider_name": "reddit",
+  "type": "rich",
+  "html": "\n    <blockquote class=\"reddit-card\" >\n      <a href=\"https://www.reddit.com/r/earthdawn/comments/hrpeih/ranged_weapon_damage/?ref_source=embed&amp;ref=share\">Ranged weapon damage</a> from\n      <a href=\"https://www.reddit.com/r/earthdawn/\">earthdawn</a>\n    </blockquote>\n    <script async src=\"https://embed.redditmedia.com/widgets/platform.js\" charset=\"UTF-8\"></script>\n",
+  "author_name": "fewdo"
+}

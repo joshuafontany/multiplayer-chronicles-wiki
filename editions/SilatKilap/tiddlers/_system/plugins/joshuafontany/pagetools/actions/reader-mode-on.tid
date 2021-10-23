@@ -1,0 +1,22 @@
+caption: Toggle Reader On Actions
+created: 20200810011058357
+creator: Joshua Fontany
+description: Actions to Shows or Hide UI Elements
+list-before: 
+modified: 20200810011102650
+modifier: Joshua Fontany
+tags: $:/tags/ReaderMode/On
+title: $:/plugins/joshuafontany/pagetools/actions/reader-mode-on
+
+<$action-listops $tiddler="$:/core/ui/SideBarSegments/search" $tags="-[[$:/tags/SideBarSegment]]"/>
+<$action-listops $tiddler="$:/plugins/joshuafontany/pagetools/ui/SilatGlossary/GlosarySearch" $tags="[[$:/tags/SideBarSegment]]"/>
+
+<$list variable="actionTid" filter="Tools More +[addprefix[$:/core/ui/SideBar/]]">
+  <$action-listops $tiddler=<<actionTid>> $tags="-[[$:/tags/SideBar]]"/>
+</$list>
+
+<$list variable="actionTid" filter="control-panel more-page-actions new-tiddler +[addprefix[$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/]]">
+  <$action-setfield $tiddler=<<actionTid>> $field="text" $value="hide"/>
+</$list>
+
+<$action-setfield $tiddler="$:/plugins/joshuafontany/pagetools/ReaderMode" $field="text" $value="yes"/>

@@ -1,0 +1,9 @@
+created: 20200526012056722
+creator: Joshua Fontany
+modified: 20200530073956058
+modifier: Joshua Fontany
+tags: $:/config/ui/EditTemplate/type
+title: $:/plugins/joshuafontany/silatglossary/config/ui/EditTemplate/type
+type: text/vnd.tiddlywiki
+
+[tag[Glossary]then[$:/plugins/joshuafontany/silatglossary/ui/EditTemplate/type/hiddenfields]]

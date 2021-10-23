@@ -1,0 +1,13 @@
+created: 20200810020650750
+creator: Joshua Fontany
+modified: 20200810025141158
+modifier: Joshua Fontany
+tags: Contents
+title: Find Me
+
+Become a supporter of mine on <$tiddler tiddler="Patreon"><a href={{!!url}} target="_blank" class="tc-tiddlylink-external"><i class={{!!icon}}/> <$view field="title"/></a></$tiddler> for updates, videos, access to private wikis, and other perks. You can also find me on:
+<ul>
+<$list filter="[tag[FindMeLink]!has[draft.of]] -[[Patreon]]">
+<li><a href={{!!url}} target="_blank" class="tc-tiddlylink-external"><i class={{!!icon}}/> <$view field="title"/></a></li>
+</$list>
+</ul>

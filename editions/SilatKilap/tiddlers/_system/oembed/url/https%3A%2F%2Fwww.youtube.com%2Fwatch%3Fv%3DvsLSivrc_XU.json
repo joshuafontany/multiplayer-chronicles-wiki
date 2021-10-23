@@ -1,0 +1,15 @@
+{
+  "thumbnail_height": 360,
+  "version": "1.0",
+  "provider_url": "https://www.youtube.com/",
+  "thumbnail_url": "https://i.ytimg.com/vi/vsLSivrc_XU/hqdefault.jpg",
+  "provider_name": "YouTube",
+  "width": 480,
+  "title": "Viking Axe & Sword Fight",
+  "author_url": "https://www.youtube.com/user/warzechas",
+  "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/vsLSivrc_XU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+  "author_name": "Roland Warzecha",
+  "height": 270,
+  "thumbnail_width": 480,
+  "type": "video"
+}

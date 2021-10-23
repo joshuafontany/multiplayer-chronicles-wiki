@@ -1,0 +1,14 @@
+created: 20200101000000000
+creator: Joshua Fontany
+modified: 20201227031336300
+modifier: Joshua Fontany
+tags: test
+title: New Tiddler 2
+
+<$button>
+  Import Some Plugin Tiddlers
+  <$action-websocketmessage
+    $type='savePluginFolder'
+    plugin='$:/plugins/flibbles/relink-markdown'
+  />
+</$button>

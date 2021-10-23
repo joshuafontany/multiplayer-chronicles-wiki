@@ -1,0 +1,10 @@
+author: joshuafontany
+core-version: >=5.1.23
+dependents: 
+description: Serve multiple wikis with TiddlyWiki5 on node.js
+list: readme license.md
+plugin-type: plugin
+source: https://github.com/joshuafontany/tw5-yjs
+title: $:/plugins/commons/multiserver
+type: application/json
+version: 0.0.1

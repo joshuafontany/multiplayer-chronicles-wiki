@@ -1,0 +1,13 @@
+[
+    {
+        "created": "20201119005410100",
+        "creator": "Joshua Fontany",
+        "text": "Unsafe field\n\n\n\nhas line breaks\n\nFnord",
+        "type": "text/vnd.tiddlywiki",
+        "title": "New Tiddler 1",
+        "tags": "",
+        "modifier": "Joshua Fontany",
+        "modified": "20201124034116549",
+        "bad": "\t\t\tUnsafe field  has line breaks\tFnord  "
+    }
+]

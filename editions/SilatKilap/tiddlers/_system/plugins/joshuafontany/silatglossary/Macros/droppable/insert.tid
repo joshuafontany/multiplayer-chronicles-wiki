@@ -1,0 +1,23 @@
+created: 20200609212430330
+creator: Joshua Fontany
+modified: 20200609214534941
+modifier: Joshua Fontany
+tags: $:/tags/Raw
+title: $:/plugins/joshuafontany/silatglossary/Macros/droppable/insert
+type: text/vnd.tiddlywiki
+
+\define drop-actions()
+<$action-listops $tiddler="$(currentTiddler)$" $field="$(currentField)$" $subfilter="+[insertbefore:$(currentVar)$<actionTiddler>]"/>
+\end
+\define placeholder()
+<div class="tc-droppable-placeholder"/>
+\end
+\define droppable-item(button)
+\whitespace trim
+<$droppable actions=<<drop-actions>> enable=<<tv-allow-drag-and-drop>>>
+<<placeholder>>
+<div>
+$button$
+</div>
+</$droppable>
+\end

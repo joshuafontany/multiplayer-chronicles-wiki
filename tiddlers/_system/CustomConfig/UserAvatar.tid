@@ -1,0 +1,11 @@
+caption: A User Avatar image styled to use in the wiki.
+class: 
+created: 20211004005758176
+image: $:/CustomConfig/Images/Avatar
+modified: 20211004005758176
+name: Joshua Fontany
+tags: $:/CustomConfig
+title: $:/CustomConfig/UserAvatar
+url: https://cdna.artstation.com/p/users/avatars/000/728/030/large/9a2167f56f8e067edf8cdc14e170af8a.jpg?1525029249
+
+<$set name="imgWidth" value=<<imgWidth>> emptyValue=100><$image width=<<imgWidth>> class="tc-image user-avatar" alt="User Avatar" tooltip={{!!name}}  source={{!!image}}/></$set>

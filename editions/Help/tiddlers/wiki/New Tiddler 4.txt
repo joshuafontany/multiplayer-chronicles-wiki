@@ -1,0 +1,5 @@
+\define buttonActions()
+<$action-listops $tiddler=<<currentTiddler>> $tags="+[toggle[.json],[.txt]]" />
+\end
+
+<$button actions=<<buttonActions>> >CLICK ME</$button> 

@@ -1,0 +1,10 @@
+created: 20211004005758122
+modified: 20211004005758122
+title: $:/CopyTimestamp
+
+\define copy-date()
+<$action-sendmessage $message="tm-copy-to-clipboard" $param=<<now "YYYY0MM0DD0hh0mm0ss0XXX">>/>
+\end
+<$button actions=<<copy-date>> style="background:#888;">
+(current date)
+</$button>

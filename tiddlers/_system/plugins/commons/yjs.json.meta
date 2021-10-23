@@ -1,0 +1,10 @@
+author: joshuafontany
+core-version: >=5.1.23
+dependents: 
+description: Yjs libraries for TiddlyWiki5
+list: readme license.md
+plugin-type: plugin
+source: https://github.com/joshuafontany/tw5-yjs
+title: $:/plugins/commons/yjs
+type: application/json
+version: 0.0.1

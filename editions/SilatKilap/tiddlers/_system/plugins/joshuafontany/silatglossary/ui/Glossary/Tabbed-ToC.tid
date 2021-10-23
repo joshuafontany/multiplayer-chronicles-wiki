@@ -1,0 +1,73 @@
+created: 20200522074208819
+creator: Joshua Fontany
+list-after: $:/core/ui/ViewTemplate/body
+modified: 20200811033025989
+modifier: Joshua Fontany
+tags: $:/tags/Raw
+title: $:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC
+type: text/vnd.tiddlywiki
+
+\define inlinePeek()
+<$vars 
+  itemLength={{{ [<currentTiddler>split[]count[]subtract[50]abs[]] }}}
+  firstLanguage={{{ [all[current]list[!!_language_list]limit[1]] }}}>
+<$list variable="peek" filter="[<currentTiddler>get<firstLanguage>split[]limit<itemLength>join[]addsuffix[...]]" emtpyMessage="...">
+(//<<firstLanguage>>//) <<peek>>
+</$list>
+</$vars>
+\end
+\define navAction()
+<$action-setfield $tiddler={{{ [[$:/state/toc/Glossary/Section-$(category)$-915393159]] }}} $field="text" $value="open" />
+<$action-setfield $tiddler="$:/temp/glossary-toc/selectedTiddler" $field="text" $value="$(currentTiddler)$" />
+<$action-navigate $to="Glossary" $scroll="yes"/>
+\end
+\import $:/plugins/joshuafontany/silatglossary/Macro/Story/View $:/plugins/joshuafontany/silatglossary/Macros/droppable/insert
+<div class="toc-tabbed-glossary">
+<$list filter="[all[current]tag[Glossary/Section]] [all[current]tag[Glossary/Category]] -Glossary/Sources -Glossary/Search -Glossary/Category">
+
+! <$link $to={{!!title}}><$view field="title"/></$link>
+<$transclude field="text" mode="block"/>
+
+<$set name="category" value=<<currentTiddler>> >
+<$list filter="[all[current]tagging[]]">
+
+<$button class="tc-btn-invisible tc-tiddlylink" actions=<<navAction>> ><$view field="title"/></$button>: <<inlinePeek>>
+</$list>
+</$set>
+</$list>
+<$list filter="[all[current]tag[Glossary]!tag[Glossary/Section]!tag[Glossary/Category]]">
+
+
+!<$link $to={{!!title}}><$view field="title"/></$link>
+
+<$vars currentField="tags" currentVar="null">
+<$macrocall $name="droppable-item" button="""<div class="tc-tags-wrapper">
+<$list filter="[all[current]tags[]sort[title]]" template="$:/core/ui/TagTemplate" storyview="pop"/>
+</div>"""/>
+</$vars>
+
+<$transclude field="text" mode="block"/>
+<<glossary-item>>
+</$list>
+<$list filter="[all[current]tag[Glossary/Section]match[Glossary/Sources]] [all[current]tag[Glossary/Section]match[Glossary/Search]]">
+
+! <$link $to={{!!title}}><$view field="title"/></$link>
+<$transclude field="text" mode="block"/>
+</$list>
+<$list filter="[all[current]tag[Glossary/Section]match[Glossary/Category]]">
+
+! <$link $to={{!!title}}><$view field="title"/></$link>
+
+<$set name="category" value=<<currentTiddler>> >
+<$list filter="[<currentTiddler>tagging[]]">
+
+!! <$button class="tc-btn-invisible tc-tiddlylink" actions=<<navAction>> ><$view field="title"/></$button>
+</$list>
+</$set>
+</$list>
+
+
+
+
+
+</div>

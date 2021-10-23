@@ -1,0 +1,10 @@
+caption: JsonMangler: Complex JSON Support & Tools
+created: 20211004005758293
+demo: https://joshuafontany.github.io/TW5-JsonMangler/
+description: This plugin changes the methods tiddlywiki uses to retrieve and set values in json data tiddlers. It does so in a way that aims for backwards compatibility. It introduces new features, widgets, and filter operators to manage, edit, and view csv and json tiddlers.
+modified: 20211004005758293
+tags: [[GitHub Repos]]
+title: JsonMangler
+url: https://github.com/joshuafontany/TW5-JsonMangler
+
+<<github-repo-body>>

@@ -1,0 +1,88 @@
+_language_list: indonesian malay filipino
+_related_terms: testing
+_see_also: QA [[quality assurance]] [[Google]]
+aliases: 
+created: 20200608234923804
+creator: Joshua Fontany
+filipino: test
+indonesian: test
+malay: test
+modified: 20200610070417531
+modifier: Joshua Fontany
+tags: $:/tags/Raw
+title: $:/plugins/joshuafontany/silatglossary/Macro/Story/Edit
+type: text/vnd.tiddlywiki
+
+\define glossary-aliases()
+''Aliases'' <$edit-text tiddler=<<currentTiddler>> field="aliases" size="50"/>
+\end
+\define glossary-related()
+;Related Terms
+:<$edit-text tiddler=<<currentTiddler>> field="_related_terms" size="50"/>
+
+;See Also
+:<$edit-text tiddler=<<currentTiddler>> field="_see_also" size="50"/>
+\end
+\define language-header(term)
+<$text text=<<Language>> /> (<a class="tc-tiddlylink-external"  href="https://translate.google.com/#view=home&op=translate&sl=$(code)$&tl=en&text=$term$" target="_blank">Translate</a>)
+\end
+\define showLangSelect()
+<$action-setfield $tiddler="$(editState)$" $field="language-select" $value="show" />
+\end
+\define hideLangSelect()
+<$action-setfield $tiddler="$(editState)$" $field="language-select" />
+\end
+\define addLanguage()
+<$action-listops $tiddler=<<__currentTiddler__>> $field="_language_list" $subfilter="[[$(langField)$]]" />
+\end
+\define remLanguage()
+<$action-listops $tiddler=<<__currentTiddler__>> $field="_language_list" $subfilter="-[[$(langField)$]]" />
+<$action-deletefield $tiddler=<<__currentTiddler__>> $field="$(langField)$" />
+\end
+\define glossary-languages()
+\import $:/plugins/joshuafontany/silatglossary/Macros/droppable/insert
+<$list variable="showSelect" filter="[<editState>!has[language-select]]">
+<$button actions=<<showLangSelect>> >{{$:/core/images/chevron-down}} Languages</$button>
+</$list>
+<$list variable="showSelect" filter="[<editState>has[language-select]]">
+<$button actions=<<hideLangSelect>> >{{$:/core/images/chevron-up}} Languages</$button>
+<$set name="languages" filter="[all[tiddlers+shadows]prefix[$:/plugins/joshuafontany/silatglossary/language/]removeprefix[$:/plugins/joshuafontany/silatglossary/language/]]">
+<$vars currentField="_language_list" currentVar="langField">
+<div class="language-list-wrapper">
+<ul class="language-list active">
+<li>''Active''</li>
+<$list variable="langField" filter="[enlist<languages>] +[enlist{!!_language_list}]">
+<li class="language-control">
+<$macrocall $name="droppable-item" button="""<$button class="tc-btn-invisible tc-tiddlylink" actions=<<remLanguage>> >{{$:/core/images/chevron-right}}</$button>&nbsp;<$draggable tiddler=<<langField>> tag="span"><<langField>></$draggable>"""/>
+</li>
+</$list>
+<$set name="langField" value="">
+<li class="language-control">
+<$macrocall $name="droppable-item" button="""{{$:/core/images/unfold-all-button}}&nbsp;<span class="language-to-end">Sort to end.</span>"""/>
+</li>
+</$set>
+</ul>
+<ul class="language-list inactive">
+<li>''Inactive''</li>
+<$list variable="langField" filter="[enlist<languages>] -[enlist{!!_language_list}]">
+<li class="language-control">
+<$button class="tc-btn-invisible tc-tiddlylink" actions=<<addLanguage>> >{{$:/core/images/chevron-left}}</$button>&nbsp;<$draggable tiddler=<<langField>> tag="span"><<langField>></$draggable>
+</li>
+</$list>
+</ul>
+</div>
+</$vars>
+</$set>
+</$list>
+
+<$list filter={{!!_language_list}} variable="lang">
+<$list variable="Language" filter="[<lang>lookup[$:/plugins/joshuafontany/silatglossary/language/]]" >
+<$set name="code" tiddler="$:/plugins/joshuafontany/silatglossary/LanguageCodes" index=<<Language>> empty="auto" >
+
+;<$macrocall $name="language-header" term={{{ [{!!draft.title}lowercase[]] }}} />
+:<$edit-text tiddler=<<currentTiddler>> field=<<lang>> size="50"/>
+</$set>
+</$list>
+</$list>
+\end
+

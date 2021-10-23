@@ -1,0 +1,11 @@
+created: 20200524012803677
+creator: Joshua Fontany
+modified: 20200608234919603
+modifier: Joshua Fontany
+title: $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/body
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/joshuafontany/silatglossary/Macro/Story/View
+<<tiddler-body-view>>
+
+<<glossary-item>>

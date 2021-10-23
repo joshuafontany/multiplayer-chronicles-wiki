@@ -1,0 +1,13 @@
+[
+    {
+        "created": "20201119010828864",
+        "creator": "Joshua Fontany",
+        "text": "Unsafe field\n\nhas line breaks\n\nFnord",
+        "tags": "",
+        "title": "Bad Image",
+        "modified": "20201119010851184",
+        "modifier": "Joshua Fontany",
+        "type": "image/jpeg",
+        "bad": "\t\t\tUnsafe field  has line breaks\tFnord  "
+    }
+]

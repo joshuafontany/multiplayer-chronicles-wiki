@@ -1,0 +1,9 @@
+created: 20200525065357992
+creator: Joshua Fontany
+modified: 20200530074106633
+modifier: Joshua Fontany
+tags: $:/config/ui/ViewTemplate/subtitle
+title: $:/plugins/joshuafontany/silatglossary/config/ui/ViewTemplate/subtitle
+type: text/vnd.tiddlywiki
+
+[has[name]then[$:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/subtitle/named]]

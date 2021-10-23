@@ -1,0 +1,8 @@
+created: 20200515020340824
+description: Forces a meta file and custom file extention when running on node.js. Same format as $:/config/FileSystemPaths, the first matching line's output becomes the new file extension.
+modified: 20200516235252094
+title: $:/config/FileSystemExtensions
+type: text/vnd.tiddlywiki
+
+[!is[system]tag[.tid]then[.tid]]
+[!is[system]type[text/vnd.tiddlywiki]tag[.txt]then[.txt]]

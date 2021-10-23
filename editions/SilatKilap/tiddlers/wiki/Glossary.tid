@@ -1,0 +1,18 @@
+color: <
+created: 20200430054018938
+creator: Joshua Fontany
+modified: 20200607071712168
+modifier: Joshua Fontany
+sort: [get[sort-priority]else[0]]
+title: Glossary
+type: text/vnd.tiddlywiki
+
+<$macrocall
+	$name="toc-tabbed-external-nav"
+	tag="Glossary/Section"
+	sort="sortsub{$:/plugins/joshuafontany/silatglossary/config/ui/Glossary/sort}"
+	selectedTiddler="$:/temp/glossary-toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the glossary table of contents. Click an arrow to expand a topic.</p>"
+	missingText="<p>Missing glossary tiddler.</p>"
+	template="$:/plugins/joshuafontany/silatglossary/ui/Glossary/Tabbed-ToC"
+/>

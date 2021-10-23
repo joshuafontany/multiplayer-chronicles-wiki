@@ -1,0 +1,33 @@
+created: 20200608032954076
+creator: Joshua Fontany
+modified: 20200609061646661
+modifier: Joshua Fontany
+tags: $:/tags/Stylesheet
+title: $:/plugins/joshuafontany/silatglossary/Styles/Story/Edit
+type: text/vnd.tiddlywiki
+
+.language-list-wrapper {
+    display: flex;   flex-wrap: wrap;
+}
+
+.language-list {
+    min-width: 20%;
+    margin-right: 5%;
+    list-style-type: none;
+    padding: 2px;
+}
+
+.language-control svg.tc-image-button {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.language-to-end {
+    font-size: 0.8em;
+    color: <<colour muted-foreground>>;
+}
+
+.hiddenfields-toggle {
+  float: right;
+  margin-right: 2em;
+}

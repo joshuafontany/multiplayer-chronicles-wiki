@@ -1,0 +1,12 @@
+caption: {{$:/language/SideBar/More/Caption}}
+created: 20200810005225024
+creator: Joshua Fontany
+modified: 20201216044050450
+modifier: Joshua Fontany
+tags: $:/tags/SideBar
+title: $:/core/ui/SideBar/More
+type: text/vnd.tiddlywiki
+
+<div class="tc-more-sidebar">
+<$macrocall $name="tabs" tabsList="[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]" default={{$:/config/DefaultMoreSidebarTab}} state="$:/state/tab/moresidebar" class="tc-vertical tc-sidebar-tabs-more" />
+</div>

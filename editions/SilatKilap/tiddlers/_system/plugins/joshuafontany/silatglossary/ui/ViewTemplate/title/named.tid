@@ -1,0 +1,25 @@
+color: #d3869b
+created: 20200525020429634
+creator: Joshua Fontany
+icon: $:/core/images/globe
+modified: 20200601085827656
+modifier: Joshua Fontany
+name: Test Name
+title: $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/title/named
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<$list filter="[all[current]removeprefix[$:/]]" variable="systemPath">
+<span class="tc-title-named">
+    <h2 class="tc-title" title={{$:/language/SystemTiddler/Tooltip}}>
+    <$view tiddler=<<currentTiddler>> field="name"/>
+    </h2>
+</span>
+</$list>
+<$list filter="[all[current]!prefix[$:/]]">
+<span class="tc-title-named">
+    <h2 class="tc-title">
+    <$view tiddler=<<currentTiddler>> field="name"/>
+    </h2>
+</span>
+</$list>

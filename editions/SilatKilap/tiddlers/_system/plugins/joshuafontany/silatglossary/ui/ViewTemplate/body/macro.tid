@@ -1,0 +1,9 @@
+created: 20200524035227855
+creator: Joshua Fontany
+modified: 20200530074211731
+modifier: Joshua Fontany
+tags: 
+title: $:/plugins/joshuafontany/silatglossary/ui/ViewTemplate/body/macro
+type: text/vnd.tiddlywiki
+
+<pre><code language={{!!type}}><$view field="text"/></code></pre>

@@ -1,0 +1,26 @@
+{
+  "directories": [
+    {
+      "path": "../../../external",
+      "filesRegExp": ".+\\.txt",
+      "isTiddlerFile": false,
+      "isEditableFile": false,
+      "fields": {
+        "title": {
+          "source": "basename"
+        },
+        "created": {
+          "source": "created"
+        },
+        "modified": {
+          "source": "modified"
+        },
+        "type": "text/plain",
+        "tags": [
+          "static",
+          "external"
+        ]
+      }
+    }
+  ]
+}

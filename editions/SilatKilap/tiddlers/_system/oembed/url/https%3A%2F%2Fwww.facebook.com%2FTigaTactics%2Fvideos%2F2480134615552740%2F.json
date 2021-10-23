@@ -1,0 +1,14 @@
+{
+  "author_name": "Tiga Tactics",
+  "author_url": "https://www.facebook.com/TigaTactics/",
+  "provider_url": "https://www.facebook.com",
+  "provider_name": "Facebook",
+  "success": true,
+  "height": 280,
+  "html": "<script>(function() { if (!document.getElementById(\"fb-root\")) { var root = document.createElement(\"div\"); root.setAttribute(\"id\", \"fb-root\"); document.body.appendChild(root); }})();</script><script async=\"1\" defer=\"1\" crossorigin=\"anonymous\" src=\"https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v7.0\" nonce=\"3gN4lHE6\"></script><div class=\"fb-video\" data-href=\"https://www.facebook.com/TigaTactics/videos/2480134615552740/\"><blockquote cite=\"https://www.facebook.com/TigaTactics/videos/2480134615552740/\" class=\"fb-xfbml-parse-ignore\"><a href=\"https://www.facebook.com/TigaTactics/videos/2480134615552740/\">Training Travelogue: Silat Serak Symposium in Colorado</a><p>We have the privilege of traveling the world to both teach and study various fighting systems. This next episode of our &quot;Training Travelogue&quot; series is actually a #ThrowbackThursday to the last Serak Symposium. This annual seminar taught by Grandmaster Willem de Thouars (AKA &quot;Uncle Bill&quot;) focuses on Pentjak Silat Serak, an Indonesian combat art that uses knees, elbows, sweeps, and throws in close-quarters. The seminar was hosted by Sensei Nicholas S Milliken at Vision Quest Martial Arts in Colorado. Check out this snippet of the CQC action!\n\n#Silat #Serak #PentjakSilat #PencakSilat #SerakSymposium #TigaTactics</p>Posted by <a href=\"https://www.facebook.com/TigaTactics/\">Tiga Tactics</a> on Thursday, August 1, 2019</blockquote></div><script>(function() { function reparse() { window.FB ? setTimeout(function() { window.FB.XFBML.parse(); }, 100) : setTimeout(reparse, 100); } reparse(); })();</script>",
+  "type": "video",
+  "version": "1.0",
+  "url": "https://www.facebook.com/TigaTactics/videos/2480134615552740/",
+  "width": 500,
+  "thumbnail_url": "https://graph.facebook.com/2480134615552740/picture"
+}

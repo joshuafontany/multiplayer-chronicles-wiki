@@ -1,0 +1,17 @@
+created: 20200526012159264
+modified: 20200526024006829
+tags: 
+title: $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/type/hiddenfields
+type: text/vnd.tiddlywiki
+
+<div class="hiddenfields-toggle">
+<$set name="fieldState" value={{{ [<currentTiddler>split[/]join[_]lowercase[]addprefix[$:/state/hiddenfields/]] }}} >
+<$reveal type="nomatch" state=<<fieldState>> text="show">
+<$button class="tc-btn-invisible tc-tiddlylink" set=<<fieldState>> setTo="show">Show fields</$button>
+</$reveal>
+<$reveal type="match" state=<<fieldState>> text="show">
+<$button class="tc-btn-invisible tc-tiddlylink" set=<<fieldState>> setTo="hide">Hide fields</$button>
+</$reveal>
+</$set>
+</div>
+<<tiddler-type-edit>>

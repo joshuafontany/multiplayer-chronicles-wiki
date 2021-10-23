@@ -1,0 +1,26 @@
+caption: This is a link to somewhere...
+created: 20200506021614346
+creator: Joshua Fontany
+modified: 20200616033725822
+modifier: Joshua Fontany
+title: $:/plugins/joshuafontany/bookmarks/Bookmark/Macros
+type: text/vnd.tiddlywiki
+url: https://somewhere
+
+\define Bookmark()
+<$list filter="[<currentTiddler>!has[caption]]">
+
+;URL
+:<a class="tc-tiddlylink-external" href={{!!url}} target=_blank><$view field="url"/></a>
+</$list>
+<$list filter="[<currentTiddler>has[caption]]">
+
+;URL
+:<a class="tc-tiddlylink-external" href={{!!url}} target=_blank><$view field="url"/></a>
+
+;Caption
+:{{!!caption}}
+</$list>
+\end
+
+<<Bookmark>>

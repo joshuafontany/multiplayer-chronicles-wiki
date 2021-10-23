@@ -1,0 +1,20 @@
+{
+	"description": "multiplayer.chronicles.wiki",
+	"plugins": [],
+	"themes": [
+		"tiddlywiki/vanilla",
+		"tiddlywiki/snowwhite"
+	],
+	"serveWikis": {
+		"editions": [
+			"./editions/Empty",
+			{ "name": "Freyja", "path": "./editions/Freyja" },
+			{ "name": "SilatKilap", "path": "./editions/SilatKilap" },
+			{ "name": "Help", "path": "./editions/Help", "readers": "(authenticated)", "writers": "Joshua,Boris,Saq,Test" }
+		]
+	},
+	"build": {
+		"index": [
+			"--rendertiddler","$:/core/save/all","index.html","text/plain"]
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "directories": [
+    {
+      "path": "../../../externalnotes",
+      "filesRegExp": ".+\\.txt",
+      "isTiddlerFile": false,
+      "isEditableFile": true,
+      "searchSubdirectories": true,
+      "fields": {
+        "title": {
+          "source": "basename-uri-decoded"
+        },
+        "created": {
+          "source": "created"
+        },
+        "modified": {
+          "source": "modified"
+        },
+        "type": "text/plain",
+        "tags": [
+          "note",
+          "external"
+        ]
+      }
+    }
+  ]
+}

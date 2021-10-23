@@ -1,0 +1,11 @@
+caption: Languages
+created: 20200526005644761
+creator: Joshua Fontany
+modified: 20200608235307114
+modifier: Joshua Fontany
+tags: $:/tags/Glossary/EditTab
+title: $:/plugins/joshuafontany/silatglossary/ui/EditTemplate/body/tab/languages
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/joshuafontany/silatglossary/Macro/Story/Edit
+<<glossary-languages>>

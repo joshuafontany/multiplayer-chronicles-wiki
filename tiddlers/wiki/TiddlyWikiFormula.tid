@@ -1,0 +1,11 @@
+caption: TiddlywikiFormula: adds spreadsheet-inspired math and function syntax.
+created: 20211004005758306
+demo: https://joshuafontany.github.io/TiddlyWikiFormula/
+description: A ~TiddlyWiki plugin for functional formulas, combining the power of Excel and Google Sheets style 'formula syntax' with ~TiddlyWiki's processing idioms.  (Created by Evan Balster. NOTE: The current version is built against the 'prerelease' version of Tiddlywiki. See the Releases tab for TW-Release specific versions)
+modified: 20211004005758306
+tags: [[GitHub Repos]]
+title: TiddlyWikiFormula
+url: https://github.com/joshuafontany/TiddlyWikiFormula
+version: 0.2.4
+
+<<github-repo-body>>

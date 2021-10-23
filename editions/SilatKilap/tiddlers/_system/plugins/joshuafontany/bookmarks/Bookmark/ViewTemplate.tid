@@ -1,0 +1,16 @@
+created: 20200506022232324
+creator: Joshua Fontany
+list-before: $:/core/ui/ViewTemplate/body
+modified: 20200616033714339
+modifier: Joshua Fontany
+tags: $:/tags/ViewTemplate
+title: $:/plugins/joshuafontany/bookmarks/Bookmark/ViewTemplate
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/joshuafontany/bookmarks/Bookmark/Macros
+<$list filter="[all[current]tag[Bookmark]]">
+
+<div class="bookmark">
+<<Bookmark>>
+</div>
+</$list>

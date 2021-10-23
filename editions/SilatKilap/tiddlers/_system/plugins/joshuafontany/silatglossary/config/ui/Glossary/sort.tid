@@ -1,0 +1,9 @@
+created: 20200528021242288
+creator: Joshua Fontany
+modified: 20200607031411172
+modifier: Joshua Fontany
+tags: 
+title: $:/plugins/joshuafontany/silatglossary/config/ui/Glossary/sort
+type: text/vnd.tiddlywiki
+
+[<currentTiddler>get[sort-priority]else{!!title}]

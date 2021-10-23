@@ -1,0 +1,11 @@
+created: 20211002023925323
+modified: 20211002024032727
+tags: 
+title: $:/config/FileSystemPaths
+type: text/vnd.tiddlywiki
+
+[is[system]removeprefix[$:/]addprefix[_system/]]
+[has[draft.of]addprefix[drafts/]]
+[!is[system]!has[draft.of]tag[Player Character]addprefix[PCs/]]
+[!is[system]!has[draft.of]tag[GM Character]addprefix[GMCs/]]
+[!is[system]!has[draft.of]addprefix[wiki/]]

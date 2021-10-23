@@ -1,0 +1,34 @@
+created: 20211004005758174
+modified: 20211004005758174
+tags: $:/tags/Stylesheet
+title: $:/CustomConfig/CSS
+
+.user-avatar {
+   border-radius: 50%; 
+}
+
+.hello-avatar {
+    vertical-align: middle;
+    float: left;
+    padding: 8px;
+}
+
+.site-avatar {
+    width: 14em
+}
+
+.site-avatar img {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+<!-- GitHub Repos CSS -->
+
+.tc-github-repo-info-dropdown { padding: 0.2em 0.2em 0 0.2em; background-color: #dddddd; }
+
+.tc-github-repo-info { display: flex; border: 1px solid #bbb; fill: #bbb; background-color: #ffffff; margin: 0.5em 0 0.5em 0; padding: 4px; align-items: center; }
+
+.tc-github-repo-infobutton { width: 3em;}
