@@ -1,0 +1,561 @@
+{
+    "Basic": {
+        "Name": "Johnathan",
+        "Player": "Casey",
+        "Gender": "",
+        "Age": "",
+        "Height": "",
+        "Weight": "",
+        "Hair": "",
+        "Skin": "",
+        "Eyes": "",
+        "Passion": "",
+        "Traits": "",
+        "Description": ""
+    },
+    "Race": "ED4Human",
+    "attributePoints": 25,
+    "Attributes": {
+        "Dex": {
+            "Buildpoints": "2",
+            "Increases": 1
+        },
+        "Str": {
+            "Buildpoints": "5",
+            "Increases": 1
+        },
+        "Tou": {
+            "Buildpoints": "3",
+            "Increases": 1
+        },
+        "Per": {
+            "Buildpoints": "5",
+            "Increases": 0
+        },
+        "Wil": {
+            "Buildpoints": "5",
+            "Increases": 0
+        },
+        "Cha": {
+            "Buildpoints": "5",
+            "Increases": 0
+        }
+    },
+    "LegendPoints": 4100,
+    "MiscSpent": [],
+    "Disciplines": [
+        {
+            "ID": "ED4Weaponsmith",
+            "Circle": "2",
+            "Order": "0",
+            "StartedAt": 15,
+            "OptionalTalentsChosen": [
+                {
+                    "Circle": "1",
+                    "ID": "ED4Fireblood"
+                },
+                {
+                    "Circle": "2",
+                    "ID": "ED4SpeakLanguage"
+                }
+            ]
+        }
+    ],
+    "Paths": [],
+    "Talents": [
+        {
+            "Order": "0",
+            "ID": "ED4Versatility",
+            "Rank": 1,
+            "Freerank": 1,
+            "Sources": [
+                {
+                    "Type": "Race",
+                    "ID": "ED4Human"
+                }
+            ],
+            "Source": "Human",
+            "DisciplineId": "",
+            "Circle": "",
+            "Type": "Racial",
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Human",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Human",
+                    "Cost": 100
+                }
+            ],
+            "UID": "f508fe82-e160-47cf-80c6-3584e6b764c8",
+            "Step": "-"
+        },
+        {
+            "Order": "1",
+            "ID": "ED4Craftsman",
+            "Rank": "2",
+            "Freerank": "0",
+            "Source": "Weaponsmith 1",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "1",
+            "Type": "Free",
+            "FreeTalent": "0",
+            "CurrentCost": "Free",
+            "CurrentSource": "ED4Weaponsmith",
+            "debug": "New free talent",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Cost": 0,
+                    "Source": "ED4Weaponsmith"
+                },
+                {
+                    "Rank": 1,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 0
+                }
+            ],
+            "UID": "be411470-5dca-4120-bc32-d4cb7ba67477",
+            "Step": 8
+        },
+        {
+            "Order": "2",
+            "ID": "ED4ForgeWeapon",
+            "Rank": 3,
+            "Freerank": 1,
+            "Source": "Weaponsmith 1",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Weaponsmith",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 200
+                },
+                {
+                    "Rank": 3,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 300
+                }
+            ],
+            "UID": "f30f87f3-9d09-439c-bbb0-c6620a013d5b",
+            "Step": 9
+        },
+        {
+            "Order": "3",
+            "ID": "ED4ItemHistory",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Weaponsmith 1",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Weaponsmith",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 200
+                }
+            ],
+            "UID": "b4980617-9ea4-4fba-895d-a79033ca6266",
+            "Step": 8
+        },
+        {
+            "Order": "4",
+            "ID": "ED4MeleeWeapons",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Weaponsmith 1",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Weaponsmith",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 200
+                }
+            ],
+            "UID": "bde8868a-6fb5-466d-b2c7-2cea75d71e9f",
+            "Step": 8
+        },
+        {
+            "Order": "5",
+            "ID": "ED4SteelThought",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Weaponsmith 1",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Weaponsmith",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 200
+                }
+            ],
+            "UID": "bc71d204-a957-47a1-b6ca-cd937c5f972f",
+            "Step": 8
+        },
+        {
+            "Order": "6",
+            "ID": "ED4ThreadWeavingThreadSmithing",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Weaponsmith 1",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Weaponsmith",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 200
+                }
+            ],
+            "UID": "74eaee5a-7cc8-49db-b240-7156682d1d89",
+            "Step": 8
+        },
+        {
+            "Order": "7",
+            "ID": "ED4Fireblood",
+            "Rank": 2,
+            "Freerank": 1,
+            "Source": "Weaponsmith 1",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "1",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Weaponsmith",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 200
+                }
+            ],
+            "UID": "025705e7-7d70-4008-8501-c1a94a111466",
+            "Step": 8
+        },
+        {
+            "Order": "8",
+            "ID": "ED4Conversation",
+            "Rank": "0",
+            "Freerank": "0",
+            "Source": "Weaponsmith 2",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "2",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Weaponsmith",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [],
+            "UID": "31caf60c-fde0-469e-9771-e717d788f5e7",
+            "Step": 6
+        },
+        {
+            "Order": "9",
+            "ID": "ED4SpeakLanguage",
+            "Rank": 0,
+            "Freerank": 0,
+            "Source": "Weaponsmith 2",
+            "DisciplineId": "ED4Weaponsmith",
+            "Circle": "2",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Weaponsmith",
+            "Ranks": [],
+            "UID": "6b35e104-f3bd-4d79-8cc6-530a156a6dc0",
+            "Step": 6
+        },
+        {
+            "Order": "10",
+            "ID": "ED4AstralSight",
+            "Rank": 1,
+            "Freerank": 1,
+            "Source": "Versatility 1",
+            "DisciplineId": "",
+            "Circle": "",
+            "Type": "Versatility",
+            "VersatilityRank": 0,
+            "VersatilityTier": "1",
+            "TalentPointsUseable": "True",
+            "CurrentCost": 1,
+            "CurrentSource": "Versatility",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "Versatility",
+                    "Cost": 200
+                }
+            ],
+            "UID": "a24d0d77-593a-4983-abf1-558bd4bfac33",
+            "Step": 7
+        }
+    ],
+    "Knacks": [],
+    "Skills": [
+        {
+            "ID": "ED4ReadWriteLanguage",
+            "Rank": "1",
+            "Freerank": "1",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 7
+        },
+        {
+            "ID": "ED4SpeakLanguage",
+            "Rank": "2",
+            "Freerank": "2",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 8
+        },
+        {
+            "ID": "ED4Artisan",
+            "Category": "Artisan",
+            "Name": "Humor",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Ancient Weapons",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "History: Human",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Physician",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4SwiftKick",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Awareness",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Haggle",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Alchemy",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4DangerSense",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4FirstImpression",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Research",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        }
+    ],
+    "Spells": [],
+    "Equipment": [
+        {
+            "ID": "AdventuringKit",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "ArtisanTools",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "Dagger",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Thrown",
+            "DamageStep": 11,
+            "Forged": "3"
+        },
+        {
+            "ID": "TravelersGarb",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Clothing"
+        },
+        {
+            "ID": "RationsTrail1week",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Provender"
+        },
+        {
+            "ID": "Silver",
+            "Count": "100",
+            "InUse": "Yes",
+            "Type": "Valuable"
+        }
+    ],
+    "Options": {
+        "Edition": "ED4",
+        "Attributepoints": "25",
+        "MaxAttributeIncrease": "3",
+        "Talentpoints": "8",
+        "Spellpoints": "PERstep",
+        "KnowledgeSkillpoints": "2",
+        "ArtisanSkillpoints": "1",
+        "SpeakSkillpoints": "2",
+        "ReadSkillpoints": "1",
+        "FreeSkillpoints": "8",
+        "BuyMoreOptionalMatrices": "false",
+        "FreeMatricesStack": "false",
+        "BuyMatricesPerDiscipline": "true",
+        "CasterCircle5Bonus": "false",
+        "SpellsCostLP": "4ed",
+        "FirstWoundFree": "false",
+        "Books": "ElvenNations Travar MysticPaths Iopos",
+        "StepDice": "ED4",
+        "SkillFreeRanksLimit": "Novice",
+        "RangedAggressive": "false",
+        "Durability": "Best",
+        "AllTalentsToAdvance": "No",
+        "AttributeIncrease": "Costs",
+        "DiscBonusesStack": "Highest"
+    },
+    "Damage": 0,
+    "Wounds": 0,
+    "PortraitURL": "./img/Portraits/Empty.png",
+    "Versatility": [
+        {
+            "ID": "ED4AstralSight",
+            "Tier": "1"
+        }
+    ],
+    "StepsVersion": 922
+}

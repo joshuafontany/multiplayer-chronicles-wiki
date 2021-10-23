@@ -1,0 +1,264 @@
+{
+    "Basic": {
+        "Name": "Dwarven Acolyte (Jonathan)",
+        "Player": "",
+        "Gender": "Female",
+        "Age": "",
+        "Height": "",
+        "Weight": "",
+        "Hair": "",
+        "Skin": "",
+        "Eyes": "",
+        "Passion": "",
+        "Traits": "",
+        "Description": ""
+    },
+    "Race": "ED4Dwarf",
+    "attributePoints": 25,
+    "Attributes": {
+        "Dex": {
+            "Buildpoints": "5",
+            "Increases": 0
+        },
+        "Str": {
+            "Buildpoints": "3",
+            "Increases": 0
+        },
+        "Tou": {
+            "Buildpoints": "5",
+            "Increases": 0
+        },
+        "Per": {
+            "Buildpoints": "3",
+            "Increases": 0
+        },
+        "Wil": {
+            "Buildpoints": "3",
+            "Increases": 0
+        },
+        "Cha": {
+            "Buildpoints": "5",
+            "Increases": 0
+        }
+    },
+    "LegendPoints": 600,
+    "MiscSpent": [],
+    "Disciplines": [],
+    "Paths": [],
+    "Talents": [],
+    "Knacks": [],
+    "Skills": [
+        {
+            "ID": "ED4ReadWriteLanguage",
+            "Rank": "1",
+            "Freerank": "1",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 7
+        },
+        {
+            "ID": "ED4SpeakLanguage",
+            "Rank": "2",
+            "Freerank": "2",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 8
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Caravans",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Trade Routes",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Artisan",
+            "Category": "Artisan",
+            "Name": "Tailor",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4MissileWeapons",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "0",
+            "Step": 7,
+            "Cost": 200
+        },
+        {
+            "ID": "ED4Climbing",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "0",
+            "Step": 7,
+            "Cost": 200
+        },
+        {
+            "ID": "ED4Craftsman",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 8,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4AnimalHandling",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "0",
+            "Step": 7,
+            "Cost": 200
+        },
+        {
+            "ID": "ED4WildernessSurvival",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4LockPicking",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 8,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Physician",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Research",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 8,
+            "Cost": 0
+        }
+    ],
+    "Spells": [],
+    "Equipment": [
+        {
+            "ID": "AdventuringKit",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "ArtisanTools",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "Dagger",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Thrown",
+            "DamageStep": 8
+        },
+        {
+            "ID": "TravelersGarb",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Clothing"
+        },
+        {
+            "ID": "RationsTrail1week",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Provender"
+        },
+        {
+            "ID": "Silver",
+            "Count": "100",
+            "InUse": "Yes",
+            "Type": "Valuable"
+        },
+        {
+            "ID": "PaddedCloth",
+            "Type": "Armor",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "DwarfSword",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 10
+        },
+        {
+            "ID": "Quarterstaff",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 10
+        },
+        {
+            "ID": "Sling",
+            "Type": "Missile Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 8
+        }
+    ],
+    "Options": {
+        "Edition": "ED4",
+        "Attributepoints": "25",
+        "MaxAttributeIncrease": "3",
+        "Talentpoints": "8",
+        "Spellpoints": "PERstep",
+        "KnowledgeSkillpoints": "2",
+        "ArtisanSkillpoints": "1",
+        "SpeakSkillpoints": "2",
+        "ReadSkillpoints": "1",
+        "FreeSkillpoints": "8",
+        "BuyMoreOptionalMatrices": "false",
+        "FreeMatricesStack": "false",
+        "BuyMatricesPerDiscipline": "true",
+        "CasterCircle5Bonus": "false",
+        "SpellsCostLP": "4ed",
+        "FirstWoundFree": "false",
+        "Books": "ElvenNations Travar MysticPaths Iopos",
+        "StepDice": "ED4",
+        "SkillFreeRanksLimit": "Novice",
+        "RangedAggressive": "false",
+        "Durability": "Best",
+        "AllTalentsToAdvance": "No",
+        "AttributeIncrease": "Costs",
+        "DiscBonusesStack": "Highest"
+    },
+    "Damage": 0,
+    "Wounds": 0,
+    "PortraitURL": "./img/Portraits/Empty.png",
+    "StepsVersion": 922
+}

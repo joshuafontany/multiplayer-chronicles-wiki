@@ -1,13 +1,14 @@
-area: [[Pomarj Penninsula]]
+area: [[Pomarj Peninsula]]
 created: 20211001021238049
-modified: 20211002024809009
-stream-list: Highport/20211002023502023
+modified: 20211008064731182
+revision: 0
+stream-list: 
 stream-type: default
-tags: City Location
+tags: City Place
 title: Highport
 type: text/vnd.tiddlywiki
 vicinity: [[Thunder Mountains]] [[Aras Sea]]
-world-region: Barsaive
+world-region: [[Barsaive]]
 
 <div class="location location-city">
 
@@ -18,7 +19,9 @@ world-region: Barsaive
 ''In the Vincinity:'' {{!!vicinity}}
 </div>
 
-The town of Highport sits on a small sheltered inlet along the northern coastline of the Pomarj peninsula, a spur of the Thunder Mountains facing the Aras Sea. It is divided into two main parts: numerous docks and a port district right on the shore, and a walled urban area at the top of a steep bluff. When humans controlled and lived in Highport, both sections of the town were kept in good order. Since the humanoid invasion, much of the place has fallen into ruin, either razed during the initial attacks or through subsequent neglect.
+{{||$:/gallery}}
+
+The town of Highport sits on a small sheltered inlet along the northern coastline of the [[Pomarj Peninsula]], a spur of the Thunder Mountains facing the Aras Sea. It is divided into two main parts: numerous docks and a port district right on the shore, and a walled urban area at the top of a steep bluff. When humans controlled and lived in Highport, both sections of the town were kept in good order. Since the humanoid invasion, much of the place has fallen into ruin, either razed during the initial attacks or through subsequent neglect.
 
 <$list filter="[area{!!title}] ~[area{!!draft.title}]">
 

@@ -89,7 +89,6 @@
                 }
             ],
             "UID": "f508fe82-e160-47cf-80c6-3584e6b764c8",
-            "Cost": 0,
             "Step": "-"
         },
         {
@@ -118,13 +117,12 @@
                 }
             ],
             "UID": "be411470-5dca-4120-bc32-d4cb7ba67477",
-            "Cost": 0,
             "Step": 8
         },
         {
             "Order": "2",
             "ID": "ED4ForgeWeapon",
-            "Rank": 2,
+            "Rank": 3,
             "Freerank": 1,
             "Source": "Weaponsmith 1",
             "DisciplineId": "ED4Weaponsmith",
@@ -146,11 +144,15 @@
                     "Rank": 2,
                     "Source": "ED4Weaponsmith",
                     "Cost": 200
+                },
+                {
+                    "Rank": 3,
+                    "Source": "ED4Weaponsmith",
+                    "Cost": 300
                 }
             ],
             "UID": "f30f87f3-9d09-439c-bbb0-c6620a013d5b",
-            "Cost": 200,
-            "Step": 8
+            "Step": 9
         },
         {
             "Order": "3",
@@ -180,7 +182,6 @@
                 }
             ],
             "UID": "b4980617-9ea4-4fba-895d-a79033ca6266",
-            "Cost": 200,
             "Step": 8
         },
         {
@@ -211,7 +212,6 @@
                 }
             ],
             "UID": "bde8868a-6fb5-466d-b2c7-2cea75d71e9f",
-            "Cost": 200,
             "Step": 8
         },
         {
@@ -242,7 +242,6 @@
                 }
             ],
             "UID": "bc71d204-a957-47a1-b6ca-cd937c5f972f",
-            "Cost": 200,
             "Step": 8
         },
         {
@@ -273,7 +272,6 @@
                 }
             ],
             "UID": "74eaee5a-7cc8-49db-b240-7156682d1d89",
-            "Cost": 200,
             "Step": 8
         },
         {
@@ -303,7 +301,6 @@
                 }
             ],
             "UID": "025705e7-7d70-4008-8501-c1a94a111466",
-            "Cost": 200,
             "Step": 8
         },
         {
@@ -322,7 +319,6 @@
             "PayExtraForFirstRank": false,
             "Ranks": [],
             "UID": "31caf60c-fde0-469e-9771-e717d788f5e7",
-            "Cost": 0,
             "Step": 6
         },
         {
@@ -340,7 +336,6 @@
             "CurrentSource": "ED4Weaponsmith",
             "Ranks": [],
             "UID": "6b35e104-f3bd-4d79-8cc6-530a156a6dc0",
-            "Cost": 0,
             "Step": 6
         },
         {
@@ -365,7 +360,6 @@
                 }
             ],
             "UID": "a24d0d77-593a-4983-abf1-558bd4bfac33",
-            "Cost": 0,
             "Step": 7
         }
     ],
@@ -506,7 +500,8 @@
             "Count": "1",
             "InUse": "Yes",
             "Type": "Thrown",
-            "DamageStep": 8
+            "DamageStep": 11,
+            "Forged": "3"
         },
         {
             "ID": "TravelersGarb",

@@ -1,0 +1,45 @@
+created: 20211002020914098
+modified: 20211008060627987
+revision: 0
+stream-list: 
+stream-type: default
+tags: $:/tags/Stylesheet
+title: CSS
+type: text/vnd.tiddlywiki
+
+body.tc-body {
+ background-color: <<colour page-background>>;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+}
+
+.location-title {
+margin-block-end: 0em;
+}
+
+div.tc-sidebar-header >div > div {
+ background-color: <<colour page-background>>;
+ margin: 0.5em 0.2em 0em 0.2em;
+ padding: 0.2em;
+ border-radius: 0.2em;
+}
+
+div.tc-sidebar-header > div {
+margin-right: 5em;
+}
+
+div.tc-tiddler-frame {
+ padding: 0.8em 1.5em;
+ border-radius: 0.4em;
+ margin-bottom: 0.6em;
+}
+
+.my-gallery img{
+width: auto;
+height: 12em;
+margin: 1em;
+}

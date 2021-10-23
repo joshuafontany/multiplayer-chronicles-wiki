@@ -1,0 +1,12 @@
+adepts-list: [[Ava Kvalheim]] Johnathan Hamilton [[Odanna Khadell]] [[El'Tharin]]
+created: 20211014233223839
+modified: 20211015045634913
+nonadepts-list: [[ElT'harin's Spearman Crew]] [[Gili, dwarf merchant]] [[Theli, dwarf scribe]] [[Bari, dwarf scribe]] [[Ethan, human craftsman]] [[Richhart, human blacksmith]] [[Arien, elf herbalist]] [[Alann, human physician]]
+tags: Faction Group
+title: The PCs Party
+
+!Adepts
+<<list-links "[enlist{!!adepts-list}]">>
+
+!Non Adepts
+<<list-links "[enlist{!!nonadepts-list}]">>

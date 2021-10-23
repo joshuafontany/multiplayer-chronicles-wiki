@@ -1,0 +1,513 @@
+{
+    "Basic": {
+        "Name": "El'Tharin",
+        "Player": "",
+        "Gender": "Male",
+        "Age": "",
+        "Height": "",
+        "Weight": "",
+        "Hair": "",
+        "Skin": "",
+        "Eyes": "",
+        "Passion": "",
+        "Traits": "",
+        "Description": ""
+    },
+    "Race": "ED4Tskrang",
+    "attributePoints": 25,
+    "Attributes": {
+        "Dex": {
+            "Buildpoints": "7",
+            "Increases": 0
+        },
+        "Str": {
+            "Buildpoints": "3",
+            "Increases": 0
+        },
+        "Tou": {
+            "Buildpoints": "7",
+            "Increases": 0
+        },
+        "Per": {
+            "Buildpoints": "3",
+            "Increases": 0
+        },
+        "Wil": {
+            "Buildpoints": "3",
+            "Increases": 0
+        },
+        "Cha": {
+            "Buildpoints": "2",
+            "Increases": 0
+        }
+    },
+    "LegendPoints": 1000,
+    "MiscSpent": [],
+    "Disciplines": [
+        {
+            "ID": "ED4Boatman",
+            "Circle": "1",
+            "Order": "0",
+            "StartedAt": 15,
+            "OptionalTalentsChosen": [
+                {
+                    "Circle": "1",
+                    "ID": "ED4Taunt"
+                }
+            ]
+        }
+    ],
+    "Paths": [],
+    "Talents": [
+        {
+            "Order": "0",
+            "ID": "ED4PilotBoat",
+            "Rank": "1",
+            "Freerank": "0",
+            "Source": "Boatman 1",
+            "DisciplineId": "ED4Boatman",
+            "Circle": "1",
+            "Type": "Free",
+            "FreeTalent": "0",
+            "CurrentCost": "Free",
+            "CurrentSource": "ED4Boatman",
+            "debug": "New free talent",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Cost": 0,
+                    "Source": "ED4Boatman"
+                }
+            ],
+            "UID": "0f79d406-103c-4a85-9715-a3776c63c579",
+            "Cost": 0,
+            "Step": 7
+        },
+        {
+            "Order": "1",
+            "ID": "ED4AvoidBlow",
+            "Rank": 2,
+            "Freerank": 2,
+            "Source": "Boatman 1",
+            "DisciplineId": "ED4Boatman",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Boatman",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Boatman",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Boatman",
+                    "Cost": 200
+                }
+            ],
+            "UID": "db871b5c-3fc8-4eef-9c48-debce92f19f9",
+            "Cost": 0,
+            "Step": 9
+        },
+        {
+            "Order": "2",
+            "ID": "ED4Climbing",
+            "Rank": 2,
+            "Freerank": 0,
+            "Source": "Boatman 1",
+            "DisciplineId": "ED4Boatman",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Boatman",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Boatman",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Boatman",
+                    "Cost": 200
+                }
+            ],
+            "UID": "42772f1e-ce68-46ab-a7bb-ea6009c726c4",
+            "Cost": 300,
+            "Step": 9
+        },
+        {
+            "Order": "3",
+            "ID": "ED4MeleeWeapons",
+            "Rank": 2,
+            "Freerank": 2,
+            "Source": "Boatman 1",
+            "DisciplineId": "ED4Boatman",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Boatman",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Cost": null,
+                    "Source": "ED4Boatman"
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Boatman",
+                    "Cost": 200
+                }
+            ],
+            "UID": "e31caf56-96d9-4a05-a8f4-cc3aa9678132",
+            "Cost": 0,
+            "Step": 9
+        },
+        {
+            "Order": "4",
+            "ID": "ED4Swimming",
+            "Rank": 2,
+            "Freerank": 0,
+            "Source": "Boatman 1",
+            "DisciplineId": "ED4Boatman",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Boatman",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Boatman",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Boatman",
+                    "Cost": 200
+                }
+            ],
+            "UID": "2eaa41cb-317f-4206-9eff-84dfbdffd943",
+            "Cost": 300,
+            "Step": 8
+        },
+        {
+            "Order": "5",
+            "ID": "ED4ThreadWeavingRiverWeaving",
+            "Rank": 2,
+            "Freerank": 2,
+            "Source": "Boatman 1",
+            "DisciplineId": "ED4Boatman",
+            "Circle": "1",
+            "Type": "Discipline",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Boatman",
+            "HasBeenMerged": false,
+            "PayExtraForFirstRank": false,
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Boatman",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Boatman",
+                    "Cost": 200
+                }
+            ],
+            "UID": "99517f4e-121c-4e20-904e-74888a878419",
+            "Cost": 0,
+            "Step": 8
+        },
+        {
+            "Order": "6",
+            "ID": "ED4Taunt",
+            "Rank": 2,
+            "Freerank": 2,
+            "Source": "Boatman 1",
+            "DisciplineId": "ED4Boatman",
+            "Circle": "1",
+            "Type": "Optional",
+            "Debug": "New Optional Talent ",
+            "FirstLearnt": 0,
+            "TalentPointsUseable": "True",
+            "CurrentCost": 0,
+            "CurrentSource": "ED4Boatman",
+            "Ranks": [
+                {
+                    "Rank": 1,
+                    "Source": "ED4Boatman",
+                    "Cost": 100
+                },
+                {
+                    "Rank": 2,
+                    "Source": "ED4Boatman",
+                    "Cost": 200
+                }
+            ],
+            "UID": "b07cc47a-eaa6-49b3-8e95-5639ad7f9858",
+            "Cost": 0,
+            "Step": 8
+        }
+    ],
+    "Knacks": [],
+    "Skills": [
+        {
+            "ID": "ED4ReadWriteLanguage",
+            "Rank": "1",
+            "Freerank": "1",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 7
+        },
+        {
+            "ID": "ED4SpeakLanguage",
+            "Rank": "2",
+            "Freerank": "2",
+            "Category": "General",
+            "Cost": 0,
+            "Step": 8
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Local Lore",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Knowledge",
+            "Category": "Knowledge",
+            "Name": "Trade Routes",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Artisan",
+            "Category": "Artisan",
+            "Name": "Jewellery",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Awareness",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4DisarmTrap",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "0",
+            "Step": 8,
+            "Cost": 200
+        },
+        {
+            "ID": "ED4Evaluate",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Maneuver",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "0",
+            "Step": 8,
+            "Cost": 200
+        },
+        {
+            "ID": "ED4Distract",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 8,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Haggle",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4Diplomacy",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "1",
+            "Freerank": "1",
+            "Step": 7,
+            "Cost": 0
+        },
+        {
+            "ID": "ED4HearteningLaugh",
+            "Category": "General",
+            "Name": "Not Selected",
+            "Rank": "2",
+            "Freerank": "2",
+            "Step": 8,
+            "Cost": 0
+        }
+    ],
+    "Spells": [],
+    "Equipment": [
+        {
+            "ID": "AdventuringKit",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "ArtisanTools",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Adventuring"
+        },
+        {
+            "ID": "Dagger",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Thrown",
+            "DamageStep": 8
+        },
+        {
+            "ID": "TravelersGarb",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Clothing"
+        },
+        {
+            "ID": "RationsTrail1week",
+            "Count": "1",
+            "InUse": "Yes",
+            "Type": "Provender"
+        },
+        {
+            "ID": "Silver",
+            "Count": "100",
+            "InUse": "Yes",
+            "Type": "Valuable"
+        },
+        {
+            "ID": "PaddedLeather",
+            "Type": "Armor",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "TailDancerBlade",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 10
+        },
+        {
+            "ID": "Buckler",
+            "Type": "Shield",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "Spear",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 10
+        },
+        {
+            "ID": "ShortSword",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 10
+        },
+        {
+            "ID": "ThrowingAxe",
+            "Type": "Thrown",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 9
+        },
+        {
+            "ID": "CastingNet",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 6
+        },
+        {
+            "ID": "LightQuartz",
+            "Type": "Adventuring",
+            "Count": "1",
+            "InUse": "Yes"
+        }
+    ],
+    "Options": {
+        "Edition": "ED4",
+        "Attributepoints": "25",
+        "MaxAttributeIncrease": "3",
+        "Talentpoints": "8",
+        "Spellpoints": "PERstep",
+        "KnowledgeSkillpoints": "2",
+        "ArtisanSkillpoints": "1",
+        "SpeakSkillpoints": "2",
+        "ReadSkillpoints": "1",
+        "FreeSkillpoints": "8",
+        "BuyMoreOptionalMatrices": "false",
+        "FreeMatricesStack": "false",
+        "BuyMatricesPerDiscipline": "true",
+        "CasterCircle5Bonus": "false",
+        "SpellsCostLP": "4ed",
+        "FirstWoundFree": "false",
+        "Books": "ElvenNations Travar MysticPaths Iopos",
+        "StepDice": "ED4",
+        "SkillFreeRanksLimit": "Novice",
+        "RangedAggressive": "false",
+        "Durability": "Best",
+        "AllTalentsToAdvance": "No",
+        "AttributeIncrease": "Costs",
+        "DiscBonusesStack": "Highest"
+    },
+    "Damage": 0,
+    "Wounds": 0,
+    "PortraitURL": "./img/Portraits/Empty.png",
+    "StepsVersion": 922
+}

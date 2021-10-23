@@ -94,8 +94,8 @@
                 }
             ],
             "UID": "41464276-1e76-4955-9bbc-046653947362",
-            "Step": "-",
-            "Cost": 0
+            "Cost": 0,
+            "Step": "-"
         },
         {
             "Order": "1",
@@ -130,8 +130,8 @@
             ],
             "UID": "b4dec66b-c350-4bcc-88f2-41ebde1498b1",
             "Spell": "ED4ITrueEphemeralBolt",
-            "Step": "-",
-            "Cost": 0
+            "Cost": 0,
+            "Step": "-"
         },
         {
             "Order": "2",
@@ -166,8 +166,8 @@
             ],
             "UID": "dbce8430-7dd2-4bdb-b8eb-a2d17135588b",
             "Spell": "ED4IMindFog",
-            "Step": "-",
-            "Cost": 0
+            "Cost": 0,
+            "Step": "-"
         },
         {
             "Order": "3",
@@ -197,8 +197,8 @@
                 }
             ],
             "UID": "7a6dc72f-183e-4d77-a88e-cadba8b20623",
-            "Step": 8,
-            "Cost": 300
+            "Cost": 300,
+            "Step": 8
         },
         {
             "Order": "4",
@@ -228,8 +228,8 @@
                 }
             ],
             "UID": "c3e8814a-5691-4258-adde-fe49d5070ece",
-            "Step": 8,
-            "Cost": 300
+            "Cost": 300,
+            "Step": 8
         },
         {
             "Order": "5",
@@ -259,8 +259,8 @@
                 }
             ],
             "UID": "45f1a312-ef32-48de-a43a-3e1264aed46c",
-            "Step": 8,
-            "Cost": 300
+            "Cost": 300,
+            "Step": 8
         },
         {
             "Order": "6",
@@ -295,8 +295,8 @@
                 }
             ],
             "UID": "68c5067e-01d4-49ac-a882-f086d05b3c38",
-            "Step": 9,
-            "Cost": 600
+            "Cost": 600,
+            "Step": 9
         },
         {
             "Order": "7",
@@ -326,8 +326,8 @@
                 }
             ],
             "UID": "42c7d6ae-8d48-4525-b8e5-98af4bc1b4b6",
-            "Step": 8,
-            "Cost": 0
+            "Cost": 0,
+            "Step": 8
         },
         {
             "Order": "8",
@@ -356,8 +356,8 @@
                 }
             ],
             "UID": "df0571da-cd58-419b-98dc-19bd119012af",
-            "Step": 8,
-            "Cost": 0
+            "Cost": 0,
+            "Step": 8
         },
         {
             "Order": "9",
@@ -386,8 +386,8 @@
                 }
             ],
             "UID": "368af391-7ecd-4b33-b021-e9d291148d1c",
-            "Step": "-",
-            "Cost": 300
+            "Cost": 300,
+            "Step": "-"
         },
         {
             "Order": "10",
@@ -410,8 +410,8 @@
                 }
             ],
             "UID": "93c583c4-a858-485b-9fdb-18b6a5871af7",
-            "Step": 7,
-            "Cost": 100
+            "Cost": 100,
+            "Step": 7
         },
         {
             "Order": "11",
@@ -440,8 +440,8 @@
                 }
             ],
             "UID": "247cdec1-cafe-44cd-bc0f-b50fd818f9a2",
-            "Step": 8,
-            "Cost": 0
+            "Cost": 0,
+            "Step": 8
         },
         {
             "Order": "12",
@@ -470,8 +470,8 @@
                 }
             ],
             "UID": "a27b5bfd-2805-43cd-9d9d-44b9a6c811a6",
-            "Step": 8,
-            "Cost": 500
+            "Cost": 500,
+            "Step": 8
         }
     ],
     "Knacks": [],
@@ -660,6 +660,39 @@
             "Count": "100",
             "InUse": "Yes",
             "Type": "Valuable"
+        },
+        {
+            "ID": "Spear",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "Forged": "2",
+            "DamageStep": 12
+        },
+        {
+            "ID": "PaddedLeather",
+            "Type": "Armor",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "CrystalBuckler",
+            "Type": "Shield",
+            "Count": "1",
+            "InUse": "Yes"
+        },
+        {
+            "ID": "ShortSword",
+            "Type": "Melee Weapon",
+            "Count": "1",
+            "InUse": "Yes",
+            "DamageStep": 10
+        },
+        {
+            "ID": "LanternBullseye",
+            "Type": "Adventuring",
+            "Count": "1",
+            "InUse": "Yes"
         }
     ],
     "Options": {

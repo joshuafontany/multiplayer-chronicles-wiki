@@ -1,6 +1,6 @@
 {
     "Basic": {
-        "Name": "Hamilton ",
+        "Name": "Hamilton",
         "Player": "Christian",
         "Gender": "Male",
         "Age": "24",
@@ -537,7 +537,8 @@
             "Type": "Melee Weapon",
             "Count": "1",
             "InUse": "Yes",
-            "DamageStep": 10
+            "DamageStep": 11,
+            "Forged": "1"
         },
         {
             "ID": "BarkArmor",

@@ -1,4 +1,4 @@
-origin: https://multiplayer.chronicles.wiki
+origin: $protocol$//$host$
 title: $:/config/tiddlyweb/host
 
-https://multiplayer.chronicles.wiki/editions/Freyja/
+$protocol$//$host$/editions/Freyja/
